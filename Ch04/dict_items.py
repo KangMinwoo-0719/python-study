@@ -4,5 +4,5 @@ print("items : ", example_dict.items())
 print(example_dict)
 
 
-for key, i  in example_dict.items():
+for key, i in example_dict.items():
     print("dict[{}] = {}".format(key, i))
