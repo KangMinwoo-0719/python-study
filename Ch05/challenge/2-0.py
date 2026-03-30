@@ -6,3 +6,5 @@ def mul(*values):
 
 
 print(mul(5, 7, 9, 10))
+
+
