@@ -6,4 +6,4 @@ n = int(input())
 for line in range(1, n + 1): 
 
     # 한 라인에 별 하나씩 늘리며 출력
-    print('*' * line) 
+    print('*' * line)
