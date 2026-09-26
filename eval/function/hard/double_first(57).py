@@ -1,3 +1,5 @@
+# 정수 리스트 nums 를 읽습니다. 예: "5 1 2" → nums=[5, 1, 2]
+nums = [int(x) for x in input().split()]
 def double_first(nums):
     """
     정수 리스트 nums를 받아
