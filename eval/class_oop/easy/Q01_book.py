@@ -23,7 +23,7 @@ class Book:
 n = int(input())
 rows = [input().split() for _ in range(n)]
 
-# ---- 호출부 (수정 금지) ----
+# ------ 호출부 (수정 금지) ------
 for title, author, pages in rows:
     book = Book(title, author, int(pages))
     print(book.describe())
